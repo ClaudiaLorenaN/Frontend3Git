@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px;
+
+}
+img{
+    width: 250px;
+    height: 250px;
+    
+}
+li{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+
+}
+h2{
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+button {
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    min-width: 10px;
+    min-height: 30px;
+    background-color: firebrick;
+    color: #fff;
+    cursor: pointer;
+  }
